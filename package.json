@@ -1,8 +1,14 @@
 {
-  "name": "node-xpress",
-  "version": "1.0.0",
-  "description": "node express crud app",
-  "main": "index.js",
-  "author": "dilip",
-  "license": "MIT"
+    "name": "node-xpress",
+    "version": "1.0.0",
+    "description": "node express crud app",
+    "main": "index.js",
+    "author": "dilip",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.15.4"
+    },
+    "scripts": {
+        "start": "node app"
+    }
 }
