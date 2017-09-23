@@ -1,0 +1,8 @@
+{
+  "name": "node-xpress",
+  "version": "1.0.0",
+  "description": "node express crud app",
+  "main": "index.js",
+  "author": "dilip",
+  "license": "MIT"
+}
