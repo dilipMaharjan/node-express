@@ -10,7 +10,14 @@ app.set('view engine', 'pug');
 
 //routes
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {
+        title: 'Welcome'
+    });
+});
+app.get('/articles', (req, res) => {
+    res.render('articles', {
+        title: 'Articles'
+    });
 });
 
 //listener
